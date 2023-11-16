@@ -258,7 +258,7 @@ footer {
 /*Finaliza Footer*/
 /*Inicia Pagina Nosotros*/
 .banner {
-  background-image: url(../../multimedia/fondoprin.jpg);
+  background-image: url(../multimedia/fondoprin.jpg);
   background-size: cover;
   background-position: center;
   height: 100%;

@@ -88,6 +88,9 @@
   color: white;
   font-family: "Geologica", sans-serif;
 }
+.principal .carrusel img {
+  border-radius: 10px;
+}
 
 /*Inicio Trajetas principal*/
 .cont-tarjeta {
@@ -96,7 +99,7 @@
   padding: 5px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .cont-tarjeta img {
   padding: 5px;
@@ -104,8 +107,17 @@
   background-position: center;
 }
 
+.tarjeta {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tarjeta:hover {
+  transform: scale(1.2);
+}
+
 .card.alto-card {
-  height: 400px;
+  height: 420px;
 }
 
 .card-body .card-title {
@@ -113,7 +125,6 @@
   color: white;
   font-family: "Geologica", sans-serif;
 }
-
 .card-body .card-text {
   font-size: 16px;
   color: white;
@@ -129,10 +140,25 @@
 
 .card img {
   height: 250px;
+  margin-top: 10px;
+  border-radius: 5px;
 }
 
 /*Tarjetas Novedades Principal Fin*/
 /*Tarjetas Promos Inicio*/
+.cont-tarjeta-promo {
+  margin: 0px;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card.alto-card1 {
+  height: 500px;
+}
+
 .card-body {
   display: flex;
   flex-wrap: wrap;
@@ -149,6 +175,17 @@
   font-size: 16px;
   color: white;
   font-family: "Geologica", sans-serif;
+  padding-bottom: 5px;
+}
+.card-body .btn {
+  border: 0;
+  background-image: linear-gradient(150deg, rgba(75, 75, 161, 0.937254902), #09f, #00ddff);
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  font-size: 16px;
+  font-family: "Geologica", sans-serif;
+  padding: 4px;
 }
 
 /*Inicia Footer*/

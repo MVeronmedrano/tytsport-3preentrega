@@ -1,0 +1,55 @@
+/*Inicia Pagina Productos*/
+.productos{
+    background-image: url(../../multimedia/fondoprin.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+
+    h1{
+        padding: 5px;
+        text-align: center;
+        font-size: $fontzide-titulo-prin;
+        color: black;
+        font-family: $font-texto;
+    }
+}
+.item{
+    height: 250px;
+    border: 5px solid black;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+.item:hover{
+    background-size: 120%;
+}
+.item1{
+    background-image: url(../../multimedia/ropa_hombre.jpg);
+}
+.item2{
+    background-image: url(../../multimedia/ropa_mujer.jpg);
+}
+.item3{
+    background-image: url(../../multimedia/chico_depo.jpg);
+}
+.item4{
+    background-image: url(../../multimedia/nena_depo.jpg);
+}
+.item5{
+    background-image: url(../../multimedia/camiseta.jpg);
+}
+.item6{
+    background-image: url(../../multimedia/camiseta1.jpg);
+}
+.item7{
+    background-image: url(../../multimedia/calsacorta.jpg);
+}
+.item8{
+    background-image: url(../../multimedia/medias.jpg);
+}
+.item9{
+    background-image: url(../../multimedia/medias_largas.jpg);
+}
+
+/*Fin Pagina Productos*/

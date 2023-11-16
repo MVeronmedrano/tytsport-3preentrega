@@ -1,0 +1,22 @@
+/*Principal Inicio*/
+
+.principal{
+    background-image: $fondo-bg;
+    padding: 10px;
+
+    h1{
+        padding: 5px;
+        text-align: center;
+        font-size: $fontzide-titulo-prin;
+        color: $color-texto;
+        font-family: $font-texto;
+    }
+    h2{
+        margin-top: 5px;
+        padding: 5px;
+        text-align: center;
+        font-size: $fontzide-titulo-secu;
+        color: $color-texto;
+        font-family: $font-texto;
+    }
+}

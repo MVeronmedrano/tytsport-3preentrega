@@ -1,0 +1,22 @@
+/*Inicia Pagina Promos*/
+
+.promos-prin{
+    background-image: url(../../multimedia/fondoprin.jpg);
+}
+.ban-promo{
+        background-image: linear-gradient(150deg,white,#414441,black);
+
+    h1{
+        padding: 5px;
+        text-align: center;
+        font-size: $fontzide-titulo-prin;
+        color: $color-texto;
+        font-family: $font-texto;
+    }
+    p{
+        font-size: $fontsize-parra;
+        color: $color-texto;
+        font-family: $font-texto;
+    }
+}
+/*Fin Pagina Promos*/

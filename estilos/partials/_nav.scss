@@ -1,0 +1,49 @@
+/*Barra de navegacion inicia*/
+.navbar{
+    background-color: $color-fondo-prin !important;
+    padding: 2px;
+
+    .navbar img{
+    padding: 10px;
+    }
+
+    .navbar.navega{
+    background-color: black !important;
+    border-bottom: 2px solid black;
+    padding-bottom: 0px;
+    }
+    
+    .navbar-toggler i{
+    font-size: 25px;
+    color: white;
+    }
+    
+}
+.navbar .nav-item a,
+.d-flex .form-control{
+    border: 0;
+    background-image: $fondo-botones;
+    border-radius:8px;
+    color: $color-texto;
+    display: flex;
+    font-size: $fontsize-parra;
+    font-family: $font-texto;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+    margin: 10px 10px;
+}
+.nav-link:hover{
+    background: none;
+    transform: scale(0.9);
+}
+
+#mynavbar ::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+}
+.d-flex button{
+    background-image: $fondo-botones;
+    color: black; 
+    font-size: 25px;
+}
+/*Barra de navegacion Fin*/

@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Edu+TAS+Beginner:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::-moz-selection {
+  background-color: black;
+  color: springgreen;
+}
+*::selection {
+  background-color: black;
+  color: springgreen;
+}
+
+/* --estilo-titulo-prin: 2px 2px 8px white; */
+/*Barra de navegacion inicia*/
+.navbar {
+  background-color: black !important;
+  padding: 2px;
+}
+.navbar .navbar img {
+  padding: 10px;
+}
+.navbar .navbar.navega {
+  background-color: black !important;
+  border-bottom: 2px solid black;
+  padding-bottom: 0px;
+}
+.navbar .navbar-toggler i {
+  font-size: 25px;
+  color: white;
+}
+
+.navbar .nav-item a,
+.d-flex .form-control {
+  border: 0;
+  background-image: linear-gradient(150deg, rgba(75, 75, 161, 0.937254902), #09f, #00ddff);
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  font-size: 16px;
+  font-family: "Geologica", sans-serif;
+  padding: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 10px 10px;
+}
+
+.nav-link:hover {
+  background: none;
+  transform: scale(0.9);
+}
+
+#mynavbar ::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#mynavbar ::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.d-flex button {
+  background-image: linear-gradient(150deg, rgba(75, 75, 161, 0.937254902), #09f, #00ddff);
+  color: black;
+  font-size: 25px;
+}
+
+/*Barra de navegacion Fin*/
+/*Principal Inicio*/
+.principal {
+  background-image: linear-gradient(150deg, white, #414441, black);
+  padding: 10px;
+}
+.principal h1 {
+  padding: 5px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-family: "Geologica", sans-serif;
+}
+.principal h2 {
+  margin-top: 5px;
+  padding: 5px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: "Geologica", sans-serif;
+}
+
+/*Inicio Trajetas principal*/
+.cont-tarjeta {
+  margin: 0px;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cont-tarjeta img {
+  padding: 5px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card.alto-card {
+  height: 400px;
+}
+
+.card-body .card-title {
+  font-size: 22px;
+  color: white;
+  font-family: "Geologica", sans-serif;
+}
+
+.card-body .card-text {
+  font-size: 16px;
+  color: white;
+  font-family: "Geologica", sans-serif;
+}
+
+.card {
+  margin: 7px;
+  border: 0;
+  background-image: linear-gradient(150deg, white, #414441, black);
+  border-radius: 8px;
+}
+
+.card img {
+  height: 250px;
+}
+
+/*Tarjetas Novedades Principal Fin*/
+/*Tarjetas Promos Inicio*/
+.card-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card-body h5 {
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  font-family: "Geologica", sans-serif;
+}
+.card-body p {
+  height: 100px;
+  font-size: 16px;
+  color: white;
+  font-family: "Geologica", sans-serif;
+}
+
+/*Inicia Footer*/
+footer {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+}
+
+.fot-izq {
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+}
+.fot-izq h4 {
+  font-size: 22px;
+  color: white;
+  font-family: "Geologica", sans-serif;
+}
+.fot-izq i {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  padding: 10px;
+}
+
+.fot-centro {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.fot-centro .dropdown button {
+  border: 0;
+  width: 200px;
+  background-image: linear-gradient(150deg, rgba(75, 75, 161, 0.937254902), #09f, #00ddff);
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  font-size: 18px;
+  padding: 4px;
+  padding-left: 40px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dropdown-menu.active, .dropdown-menu a:hover {
+  background-image: linear-gradient(150deg, rgba(75, 75, 161, 0.937254902), #09f, #00ddff);
+}
+
+.fot-derecha > h4 {
+  margin-top: 20px;
+  font-size: 22px;
+  color: white;
+  font-family: "Geologica", sans-serif;
+  text-align: center;
+}
+.fot-derecha i, .fot-derecha span, .fot-derecha a {
+  padding: 8px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+/*Finaliza Footer*/
+/*Inicia Pagina Nosotros*/
+.banner {
+  background-image: url(../../multimedia/fondoprin.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.banner .noso {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.banner .noso h1 {
+  padding: 5px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-family: "Geologica", sans-serif;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.ban-izq p {
+  padding: 10px;
+  font-family: "Geologica", sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.ban-derecha h4 {
+  margin-top: 5px;
+  padding: 5px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  font-family: "Geologica", sans-serif;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.ban-derecha video {
+  height: 100%;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+/*Fin Pagina Nosotros*/
+/*Inicia Pagina Productos*/
+.productos {
+  background-image: url(../../multimedia/fondoprin.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+.productos h1 {
+  padding: 5px;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  font-family: "Geologica", sans-serif;
+}
+
+.item {
+  height: 250px;
+  border: 5px solid black;
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+
+.item:hover {
+  background-size: 120%;
+}
+
+.item1 {
+  background-image: url(../../multimedia/ropa_hombre.jpg);
+}
+
+.item2 {
+  background-image: url(../../multimedia/ropa_mujer.jpg);
+}
+
+.item3 {
+  background-image: url(../../multimedia/chico_depo.jpg);
+}
+
+.item4 {
+  background-image: url(../../multimedia/nena_depo.jpg);
+}
+
+.item5 {
+  background-image: url(../../multimedia/camiseta.jpg);
+}
+
+.item6 {
+  background-image: url(../../multimedia/camiseta1.jpg);
+}
+
+.item7 {
+  background-image: url(../../multimedia/calsacorta.jpg);
+}
+
+.item8 {
+  background-image: url(../../multimedia/medias.jpg);
+}
+
+.item9 {
+  background-image: url(../../multimedia/medias_largas.jpg);
+}
+
+/*Fin Pagina Productos*/
+/*Inicia Pagina Promos*/
+.promos-prin {
+  background-image: url(../../multimedia/fondoprin.jpg);
+}
+
+.ban-promo {
+  background-image: linear-gradient(150deg, white, #414441, black);
+}
+.ban-promo h1 {
+  padding: 5px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-family: "Geologica", sans-serif;
+}
+.ban-promo p {
+  font-size: 16px;
+  color: white;
+  font-family: "Geologica", sans-serif;
+}
+
+/*Fin Pagina Promos*/
+/*Inicio Pagina Contactos*/
+.fondo-contac {
+  height: 100%;
+  background-image: url(../../multimedia/fondo_contacto.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+.fondo-contac h1 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  text-shadow: 8pX 8px 15px white;
+  padding: 5px;
+  margin: 5px;
+}
+
+.formulario label {
+  margin: 2px;
+  color: white;
+  font-size: 20px;
+}
+.formulario .boton {
+  display: flex;
+  justify-content: center;
+}
+
+.formulario button {
+  border: 0;
+  background-image: linear-gradient(150deg, rgba(75, 75, 161, 0.937254902), #09f, #00ddff);
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  font-size: 18px;
+  padding: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.formulario button span {
+  background-color: #111;
+  padding: 16px 24px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.formulario button:hover span {
+  background: none;
+  transform: scale(0.9);
+}
+
+/*Fin Pagina Contactos*//*# sourceMappingURL=estilos.css.map */

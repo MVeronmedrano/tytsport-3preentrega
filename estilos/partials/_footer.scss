@@ -1,0 +1,72 @@
+/*Inicia Footer*/
+footer{
+    background-color: $color-fondo-prin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+}
+
+.fot-izq{
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+
+    h4{
+    font-size: $fontzide-titulo-tarj;
+    color: $color-texto;
+    font-family: $font-texto;
+    }
+
+    i{
+        color: white;
+        font-size: 35px;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+.fot-centro{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+} 
+
+.fot-centro .dropdown button{
+    border: 0;
+    width: 200px;
+    background-image: $fondo-botones;
+    border-radius:8px;
+    color: $color-texto;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    padding-left: 40px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.dropdown-menu.active, .dropdown-menu a:hover{
+    background-image: $fondo-botones;
+}
+
+.fot-derecha {
+    >h4{
+        margin-top: 20px;
+        font-size: $fontzide-titulo-tarj;
+        color: $color-texto;
+        font-family: $font-texto;
+        text-align: center;
+    }
+    i, span, a{
+        padding: 8px;
+        color: $color-texto;
+        font-size: 16px;
+        text-align: center;
+    }    
+}
+
+/*Finaliza Footer*/
